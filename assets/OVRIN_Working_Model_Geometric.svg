@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="724" height="724" viewBox="0 0 724 724" role="img" aria-labelledby="title desc" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+<title id="title">OVRIN — Owned domains · Working model</title>
+<desc id="desc">A mathematically registered, sacred-geometry-based reconstruction of the supplied OVRIN layered working-model diagram. All structural vertices lie on concentric regular hexagons of a triangular lattice.</desc>
+<metadata>{"generator":"OVRIN geometry-mapped-vector-design v1.0.1","map":"concentric regular hexagons on a triangular/Flower-of-Life lattice","q_px":"4.37","center":[362,394.5],"radii_q":[72,56,36,18],"angles_deg":[30,90,150,210,270,330]}</metadata>
+<defs>
+  <linearGradient id="outerTop" x1="0" y1="80" x2="0" y2="250" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#C9F2F6"/><stop offset="1" stop-color="#84D5DE"/></linearGradient>
+  <linearGradient id="outerLeft" x1="80" y1="240" x2="300" y2="680" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#64CCD6"/><stop offset="1" stop-color="#2EACBA"/></linearGradient>
+  <linearGradient id="outerRight" x1="640" y1="240" x2="430" y2="680" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6DD0D9"/><stop offset="1" stop-color="#3DB5C2"/></linearGradient>
+  <linearGradient id="purpleTop" x1="0" y1="145" x2="0" y2="325" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#E8CEF7"/><stop offset="1" stop-color="#C89BE7"/></linearGradient>
+  <linearGradient id="purpleLeft" x1="145" y1="275" x2="335" y2="610" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#C797E5"/><stop offset="1" stop-color="#A869D4"/></linearGradient>
+  <linearGradient id="purpleRight" x1="580" y1="275" x2="390" y2="610" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#C490E1"/><stop offset="1" stop-color="#A667D0"/></linearGradient>
+  <linearGradient id="orangeTop" x1="0" y1="235" x2="0" y2="355" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#FFF0C8"/><stop offset="1" stop-color="#FFD88A"/></linearGradient>
+  <linearGradient id="orangeLeft" x1="230" y1="320" x2="350" y2="525" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#FFD071"/><stop offset="1" stop-color="#F9B33E"/></linearGradient>
+  <linearGradient id="orangeRight" x1="495" y1="320" x2="375" y2="525" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#FFC45A"/><stop offset="1" stop-color="#F39D22"/></linearGradient>
+  <linearGradient id="coreTop" x1="0" y1="312" x2="0" y2="395" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#F2F4F6"/><stop offset="1" stop-color="#D7DCE1"/></linearGradient>
+  <linearGradient id="coreLeft" x1="300" y1="350" x2="360" y2="470" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#D9DEE3"/><stop offset="1" stop-color="#BCC4CB"/></linearGradient>
+  <linearGradient id="coreRight" x1="430" y1="350" x2="365" y2="470" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#BFC6CD"/><stop offset="1" stop-color="#919AA3"/></linearGradient>
+  <style>
+    .face { stroke:#101722; stroke-width:0.9; stroke-linejoin:miter; vector-effect:non-scaling-stroke; }
+    .label { fill:#101722; font-family:Inter,Arial,Helvetica,sans-serif; dominant-baseline:middle; }
+    .label .sub { fill:#3C4657; }
+    .title { fill:#101722; font-family:Inter,Arial Black,Arial,Helvetica,sans-serif; font-weight:800; letter-spacing:0.2px; }
+    .subtitle { fill:#3C4657; font-family:Inter,Arial,Helvetica,sans-serif; font-weight:400; }
+    .construction-line { stroke:#5F6B7A; stroke-width:0.75; stroke-dasharray:4 4; opacity:0.45; vector-effect:non-scaling-stroke; }
+    .construction-circle { fill:none; stroke:#9B7AC9; stroke-width:0.75; stroke-dasharray:5 4; opacity:0.45; vector-effect:non-scaling-stroke; }
+    .anchor { fill:#FFFFFF; stroke:#111827; stroke-width:0.75; vector-effect:non-scaling-stroke; }
+    .construction-note { fill:#515B6A; font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size:9px; }
+  </style>
+</defs>
+
+<rect width="724" height="724" fill="#FFFFFF"/>
+<g id="artwork">
+<polygon class="face" points="362,79.86 634.486233046736,237.18 573.933736814128,272.14 362,149.78 150.066263185872,272.14 89.513766953264,237.18" fill="url(#outerTop)"/>
+<polygon class="face" points="89.513766953264,237.18 150.066263185872,272.14 150.066263185872,516.86 362,639.22 362,709.14 89.513766953264,551.82" fill="url(#outerLeft)"/>
+<polygon class="face" points="634.486233046736,237.18 634.486233046736,551.82 362,709.14 362,639.22 573.933736814128,516.86 573.933736814128,272.14" fill="url(#outerRight)"/>
+<polygon class="face" points="362,149.78 573.933736814128,272.14 498.243116523368,315.84 362,237.18 225.756883476632,315.84 150.066263185872,272.14" fill="url(#purpleTop)"/>
+<polygon class="face" points="150.066263185872,272.14 225.756883476632,315.84 225.756883476632,473.16 362,551.82 362,639.22 150.066263185872,516.86" fill="url(#purpleLeft)"/>
+<polygon class="face" points="573.933736814128,272.14 573.933736814128,516.86 362,639.22 362,551.82 498.243116523368,473.16 498.243116523368,315.84" fill="url(#purpleRight)"/>
+<polygon class="face" points="362,237.18 498.243116523368,315.84 430.121558261684,355.17 362,315.84 293.878441738316,355.17 225.756883476632,315.84" fill="url(#orangeTop)"/>
+<polygon class="face" points="225.756883476632,315.84 293.878441738316,355.17 293.878441738316,433.83 362,473.16 362,551.82 225.756883476632,473.16" fill="url(#orangeLeft)"/>
+<polygon class="face" points="498.243116523368,315.84 498.243116523368,473.16 362,551.82 362,473.16 430.121558261684,433.83 430.121558261684,355.17" fill="url(#orangeRight)"/>
+<polygon class="face" points="362,315.84 430.121558261684,355.17 362,394.5 293.878441738316,355.17" fill="url(#coreTop)"/>
+<polygon class="face" points="293.878441738316,355.17 362,394.5 362,473.16 293.878441738316,433.83" fill="url(#coreLeft)"/>
+<polygon class="face" points="362,394.5 430.121558261684,355.17 430.121558261684,433.83 362,473.16" fill="url(#coreRight)"/>
+</g>
+<g id="typography">
+<text class="title" x="362" y="42" text-anchor="middle" font-size="50">OVRIN</text>
+<text class="subtitle" x="362" y="66" text-anchor="middle" font-size="19">Owned domains · Working model</text>
+<text class="label" x="362" y="130" text-anchor="middle" font-size="16" font-weight="750">SOPs / Skills</text>
+<text class="label" x="362" y="201" text-anchor="middle" font-size="15" font-weight="750"><tspan x="362" dy="0">Ideation workspace</tspan><tspan class="sub" x="362" dy="13" font-size="11" font-weight="500">Q-ROC</tspan></text>
+<text class="label" x="362" y="273" text-anchor="middle" font-size="14" font-weight="750"><tspan x="362" dy="0">Control interface</tspan><tspan class="sub" x="362" dy="13" font-size="11" font-weight="500">Soliton</tspan></text>
+<text class="label" x="362" y="339" text-anchor="middle" font-size="13" font-weight="750"><tspan x="362" dy="0">Methodology</tspan><tspan class="sub" x="362" dy="12" font-size="10" font-weight="500">Citium</tspan></text>
+<text class="label" x="195" y="571" text-anchor="middle" font-size="14" font-weight="750"><tspan x="195" dy="0">Global</tspan><tspan class="sub" x="195" dy="16" font-size="14" font-weight="500">understanding</tspan></text>
+<text class="label" x="195" y="597" text-anchor="middle" font-size="11" font-weight="500">Zerde</text>
+<text class="label" x="529" y="571" text-anchor="middle" font-size="14" font-weight="750"><tspan x="529" dy="0">Bulk data tools</tspan><tspan class="sub" x="529" dy="13" font-size="11" font-weight="500">Z-ETL</tspan></text>
+<text class="label" x="217" y="507" text-anchor="middle" font-size="14" font-weight="750"><tspan x="217" dy="0">Spec engine</tspan><tspan class="sub" x="217" dy="13" font-size="11" font-weight="500">Phod</tspan></text>
+<text class="label" x="507" y="507" text-anchor="middle" font-size="14" font-weight="750"><tspan x="507" dy="0">Execution system</tspan><tspan class="sub" x="507" dy="13" font-size="11" font-weight="500">QREAM</tspan></text>
+<text class="label" x="285" y="464" text-anchor="middle" font-size="13" font-weight="750"><tspan x="285" dy="0">Memory system</tspan><tspan class="sub" x="285" dy="13" font-size="11" font-weight="500">Lorengine</tspan></text>
+<text class="label" x="439" y="464" text-anchor="middle" font-size="13" font-weight="750"><tspan x="439" dy="0">Agent tools</tspan><tspan class="sub" x="439" dy="13" font-size="11" font-weight="500">Zeno</tspan></text>
+<text class="label" x="329" y="403" text-anchor="middle" font-size="11.5" font-weight="750"><tspan x="329" dy="0">Blueprint</tspan><tspan class="sub" x="329" dy="11.5" font-size="9.5" font-weight="500">Factory</tspan></text>
+<text class="label" x="397" y="403" text-anchor="middle" font-size="11.5" font-weight="750"><tspan x="397" dy="0">Machinery</tspan><tspan class="sub" x="397" dy="11.5" font-size="9.5" font-weight="500">STRATUM</tspan></text>
+</g>
+</svg>

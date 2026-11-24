@@ -1,0 +1,12 @@
+From: TEST Receipts <receipts@example.invalid>
+To: test@example.invalid
+Subject: TEST receipt - your fuel purchase
+Date: Sat, 10 Oct 2026 08:15:00 -0400
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+TEST RECEIPT (a test fixture, not a real purchase)
+Canadian Tire Gas+  station 0000
+2026-10-10
+Regular unleaded  38.20 L   61.50 CAD
+Total                       61.50 CAD

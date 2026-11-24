@@ -1,0 +1,10 @@
+field,value
+employer,TEST Employer Ltd
+pay_date,2026-10-09
+period_start,2026-09-26
+period_end,2026-10-09
+gross,2400.00
+net,1850.00
+currency,CAD
+deduction:Income tax,410.00
+deduction:CPP,140.00

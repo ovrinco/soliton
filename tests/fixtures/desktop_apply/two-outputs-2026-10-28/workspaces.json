@@ -1,0 +1,22 @@
+[
+ {
+  "id": 1,
+  "name": "1",
+  "monitor": "HDMI-A-1"
+ },
+ {
+  "id": 7,
+  "name": "7",
+  "monitor": "HDMI-A-1"
+ },
+ {
+  "id": 2,
+  "name": "2",
+  "monitor": "DP-1"
+ },
+ {
+  "id": 3,
+  "name": "3",
+  "monitor": "HDMI-A-1"
+ }
+]

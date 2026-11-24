@@ -1,0 +1,4 @@
+item_name,price,store,purchase_date,quantity,unit,category
+Oat milk,4.99,TEST Local Grocer,2026-10-06,2,litre,Groceries
+Toothpaste,3.49,TEST Local Grocer,2026-10-06,1,tube,Toiletries
+Picture frame,15.00,TEST Local Grocer,2026-10-06,1,item,Decor

@@ -1,0 +1,23 @@
+[package]
+name = "soliton-kernel"
+version = "0.2.0"
+edition = "2021"
+description = "Tauri-independent governed kernel for the Soliton operator cockpit"
+license = "Apache-2.0"
+
+[lib]
+path = "src/lib.rs"
+
+[features]
+default = []
+bundled-sqlite = ["rusqlite/bundled"]
+
+[dependencies]
+serde = { version = "=1.0.228", features = ["derive"] }
+serde_json = "=1.0.145"
+sha2 = "=0.10.9"
+# System libsqlite3 (no bundled C build): the data plane ledger, DATA_PLANE.md section 1.
+rusqlite = { version = "=0.41.0", default-features = false, features = ["fallible_uint"] }
+
+[lints.rust]
+unsafe_code = "forbid"

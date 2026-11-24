@@ -1,0 +1,19 @@
+{
+  "schema": "ovrin-module-parity/1",
+  "policy": "Inventory observations only; parity does not authorize a source substitution.",
+  "engines": [
+    {
+      "id": "zetl",
+      "selected": {
+        "language": "rust",
+        "revision": "DATA-028 r03",
+        "binary": "../bin/z-etl"
+      },
+      "legacy": {
+        "language": "rust",
+        "status": "earlier revision retained in handoff"
+      },
+      "parity": "fixture workflow verified for inspect; validate/run CLI contract captured"
+    }
+  ]
+}

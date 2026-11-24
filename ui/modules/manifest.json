@@ -1,0 +1,20 @@
+{
+ "schema": "ovrin-modules/1",
+ "policy": "Only the exact binary path and digest recorded here may be launched by ModulesStore. Build caches are not bundled.",
+ "engines": [
+  {
+   "id": "zetl",
+   "version": "0.1.0 (Avx2 scan backend)",
+   "source": "DATA-028/revisions/r03",
+   "path": "bin/z-etl",
+   "sha256": "532bb7c2ee640c3228587d0086e91a918dc21de092e99dc8e10342ef93bdcd4a",
+   "tested": [
+    "inspect",
+    "validate",
+    "run"
+   ]
+  }
+ ],
+ "deferred": [],
+ "adapters": []
+}

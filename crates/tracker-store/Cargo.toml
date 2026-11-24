@@ -1,0 +1,21 @@
+[package]
+license = "Apache-2.0"
+name = "tracker-store"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.94"
+publish = false
+
+# The read side of the tracker store's own crate; README.md names its origin and every changed pin.
+[features]
+default = []
+bundled-sqlite = ["rusqlite/bundled"]
+
+[dependencies]
+rusqlite = { version = "=0.41.0", default-features = false, features = ["fallible_uint"] }
+serde = { version = "=1.0.228", features = ["derive"] }
+serde_json = "=1.0.145"
+thiserror = "=2.0.17"
+
+[lints.rust]
+unsafe_code = "forbid"

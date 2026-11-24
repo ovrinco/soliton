@@ -1,0 +1,4 @@
+singleton Theme 1.0 Theme.qml
+singleton Backend 1.0 Backend.qml
+ActionButton 1.0 ActionButton.qml
+ConsolePane 1.0 ConsolePane.qml

@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+set -euo pipefail
+umask 077
+soliton_root=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)
+export SOLITON_RESOURCE_ROOT="$soliton_root"
+# Opening Soliton does not start collection schedules.
+# Local History capture stays incremental and independent of this opt-in.
+export SOLITON_COLLECTION_AUTOSTART="${SOLITON_COLLECTION_AUTOSTART:-0}"
+export QS_APP_ID="${QS_APP_ID:-soliton}"
+export SOLITON_BIN="$soliton_root/bin/soliton"
+export SOLITON_DATA="${SOLITON_DATA:-${XDG_DATA_HOME:-$HOME/.local/share}/soliton/workspace}"
+# The tracker store, read in place and only read; a proof launcher points it at a copy.
+export SOLITON_TRACKER_STORE="${SOLITON_TRACKER_STORE:-}"
+export OVRIN_HARNESS_BIN="$soliton_root/bin/ovrin-harness"
+export OVRIN_HARNESS_CONFIG="${OVRIN_HARNESS_CONFIG:-${XDG_CONFIG_HOME:-$HOME/.config}/soliton/console.json}"
+export OVRIN_HARNESS_DATA="${OVRIN_HARNESS_DATA:-$SOLITON_DATA/console}"
+export OVRIN_HARNESS_MODE="${OVRIN_HARNESS_MODE:-offline}"
+# History > Runs reads campaigns through QREAM's reader; without one on PATH, the installed QREAM's reader serves.
+[ -z "${SOLITON_RUN_READER:-}" ] && ! command -v qream-record >/dev/null && [ -x "$HOME/.local/lib/qream_next/current/bin/qream-record" ] && export SOLITON_RUN_READER="$HOME/.local/lib/qream_next/current/bin/qream-record"
+export QT_QUICK_CONTROLS_STYLE=Basic
+exec qs -p "$soliton_root/shell.qml" "$@"

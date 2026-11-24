@@ -1,0 +1,28 @@
+name: Build and first run
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  first-run:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    defaults:
+      run:
+        shell: bash
+        working-directory: .
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: dtolnay/rust-toolchain@39008827e6b4319a349e9a42dfc90579dd25f1ca # stable action
+        with:
+          toolchain: 1.94.0
+      - name: System prerequisites
+        run: sudo apt-get update && sudo apt-get install -y build-essential pkg-config libsqlite3-dev ffmpeg
+      - name: Build and exercise
+        env:
+          CARGO_BUILD_JOBS: 2
+          QROC_TEST_ROOT: ${{ runner.temp }}/qroc-tests
+        run: |
+          cargo test --locked --features bundled-sqlite -p soliton-kernel --lib
+          cargo test --locked --features bundled-sqlite -p soliton --lib
+          cargo build --locked --features bundled-sqlite --bin soliton
+          python3 examples/first-run.py target/debug/soliton

@@ -1,0 +1,13 @@
+[package]
+name = "soliton-t03-voice-tests"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+path = "voice_reference.rs"
+
+[dependencies]
+serde_json = "1"
+soliton = { path = "../.." }
+
+[workspace]

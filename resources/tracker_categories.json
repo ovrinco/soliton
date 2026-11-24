@@ -1,0 +1,7 @@
+{
+ "categories": [
+  {"name": "Learning", "tabs": ["Learning", "Code Mine", "Notes"]},
+  {"name": "Personal life", "tabs": ["Communication", "Voice", "Compute", "VASM"]},
+  {"name": "OVRIN stack", "tabs": ["Soliton", "QREAM", "QROC", "Lorengine", "Zeno", "Zavent Sheets", "Zavent Data", "Zerde", "Z-ETL", "Phod", "Citium", "OVRIN", "Namespace", "Stratum", "OS", "Design", "SOPs", "Outcomes", "Decisions", "Conflicts", "Faults", "Releases", "Names", "Voice Sources", "Intent Sources"]}
+ ]
+}

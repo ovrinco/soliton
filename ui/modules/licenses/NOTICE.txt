@@ -1,0 +1,7 @@
+The helper binaries in ../bin are produced from the OVRIN handoff artifacts
+listed in manifest.json. Their source provenance and exact SHA-256 digests are
+recorded there. Lorengine's supplied first-party LICENSE, LICENSE-BSL.md, and
+LICENSE_STATUS.md are preserved beside this notice. The other selected handoff
+archives did not include a standalone first-party license text at the pinned
+source root; no license is inferred for them. Release packaging must resolve
+those upstream notices before distribution.

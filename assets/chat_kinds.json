@@ -1,0 +1,43 @@
+{
+  "schema": "soliton-chat-kinds/1",
+  "default_kind": "ordinary",
+  "kinds": [
+    {
+      "kind": "qream",
+      "label": "QREAM run",
+      "color_token": "purple",
+      "path_markers": ["/runs/qream/", "/qream/campaigns/", "/qream/work/"],
+      "prompt_markers": ["you are a qream sub-agent", "qream worker directive", "qream campaign worker", "qream run wave"]
+    },
+    {
+      "kind": "zeno",
+      "label": "Zeno console",
+      "color_token": "yellow",
+      "providers": ["zeno"],
+      "path_markers": ["/zeno/console/", "/zeno/sessions/"],
+      "prompt_markers": ["zeno console session", "you are zeno", "zeno local-agent console"]
+    },
+    {
+      "kind": "dense_specification",
+      "label": "Specification",
+      "color_token": "blue",
+      "text_markers": ["specification", "acceptance criteria", "definition of done", "outcome contract"],
+      "min_messages": 20,
+      "min_text_chars": 12000,
+      "min_duration_ms": 1800000
+    },
+    {
+      "kind": "deep_discussion",
+      "label": "Deep discussion",
+      "color_token": "green",
+      "min_messages": 20,
+      "min_text_chars": 12000,
+      "min_duration_ms": 1800000
+    },
+    {
+      "kind": "ordinary",
+      "label": "Conversation",
+      "color_token": "grey"
+    }
+  ]
+}
